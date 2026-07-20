@@ -1,0 +1,38 @@
+{
+  "degradation": {
+    "SOFT": {
+      "base": 88.54896667845766,
+      "d": 0.08441773706589134,
+      "fuel": -0.07318834938143873,
+      "n_tracks": 2
+    },
+    "MEDIUM": {
+      "base": 94.55042468581915,
+      "d": 0.036875663019554354,
+      "fuel": -0.13201861821298316,
+      "n_tracks": 7
+    },
+    "HARD": {
+      "base": 92.82467189193903,
+      "d": 0.052128227371440086,
+      "fuel": -0.09604142054156892,
+      "n_tracks": 5
+    }
+  },
+  "pit_cost": {
+    "green_pit_loss_total": 26.4,
+    "green_in_lap": 5.1,
+    "green_out_lap": 21.3,
+    "sc_pit_loss_total": 12.0,
+    "n_green": 480,
+    "source": "green measured (2025 high-speed); SC cited (Aguad & Thraves 2024)"
+  },
+  "safety_car": {
+    "p_sc_per_race": 0.5416666666666666,
+    "p_sc_per_lap": 0.013593751240479124,
+    "p_vsc_per_race": 0.375,
+    "avg_sc_duration_laps": 4,
+    "n_races": 24,
+    "source": "measured 2025 (24 races); cross-checks Aguad & Thraves ~47%"
+  }
+}

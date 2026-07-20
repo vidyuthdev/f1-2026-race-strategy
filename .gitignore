@@ -1,0 +1,20 @@
+# FastF1 API cache (large, regenerated on demand)
+src/f1_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Matplotlib / fontconfig caches
+.matplotlib/
+
+# OS
+.DS_Store
+Thumbs.db
