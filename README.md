@@ -13,7 +13,7 @@ The model is built up in layers, each in its own notebook:
    frequencies are estimated from real 2025 telemetry (via the FastF1 / OpenF1 APIs).
 2. **Deterministic baseline** — dynamic programming finds the optimal fixed pit strategy
    assuming no safety cars.
-3. **Stochastic dynamic programming (SDP)** — a 2-state geometric-duration Markov chain
+3. **Stochastic dynamic programming (SDP)** — a 5-state geometric-duration Markov chain with a deterministic four-lap countdown that
    models random safety cars, and backward induction yields an adaptive policy.
 4. **2026 battery layer** — battery state and energy-management actions (deploy / hold /
    harvest, plus free recharging under safety cars) are added to the state space.
