@@ -1,6 +1,15 @@
-fastf1>=3.3
-numpy>=1.24
-pandas>=2.0
-matplotlib>=3.7
-requests>=2.31
-jupyter>=1.0
+# Python 3.11.15 (see environment.yml for a conda-based setup)
+# Versions pinned to the environment in which the committed results were produced.
+
+fastf1==3.8.3
+numpy==2.4.6
+pandas==2.3.3
+matplotlib==3.11.0
+requests==2.34.2
+scipy==1.17.1
+statsmodels==0.15.0
+
+# notebook execution
+jupyter==1.1.1
+notebook==7.6.0
+ipykernel==7.3.0
